@@ -1,0 +1,36 @@
+.sect{
+    height: calc(100vh - 70px);
+    background-image: url("./assets/back-2.jpg");
+}
+
+
+.img{
+    background-image: url("./assets/slider-4.jpg");
+}
+
+.login{
+    display: none;
+}
+
+.showlogin{
+    z-index: 30;
+    display: block;
+}
+
+.smh{
+    height: 100vh;
+}
+
+.card,
+.navsm{
+    transition: 0.5s;
+    
+}
+
+.shownav{
+    right:  0px !important;
+}
+
+.showcard{
+    left: 0px !important;
+}
